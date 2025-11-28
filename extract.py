@@ -18,12 +18,12 @@ logger = logging.getLogger(__name__)
 BASE_URL = "https://swapi.dev/api"
 
 
-class SWAPIExtractor:
-    """Clase para extraer datos de la API SWAPI"""
+class SWAPIExtractorBase:
+    """Clase base para extraer datos de la API SWAPI"""
     
     def __init__(self, base_url: str = BASE_URL, delay: float = 0.1):
         """
-        Inicializa el extractor
+        Inicializa la clase extractor base
         
         Args:
             base_url: URL base de la API SWAPI
@@ -82,33 +82,6 @@ class SWAPIExtractor:
         logger.info(f"Total de {endpoint} extraídos: {len(all_results)}")
         return all_results
     
-    def extract_people(self) -> List[Dict]:
-        """
-        Extrae todos los datos de personas (people)
-        
-        Returns:
-            Lista de diccionarios con datos de personas
-        """
-        return self._fetch_all_pages('people')
-    
-    def extract_planets(self) -> List[Dict]:
-        """
-        Extrae todos los datos de planetas (planets)
-        
-        Returns:
-            Lista de diccionarios con datos de planetas
-        """
-        return self._fetch_all_pages('planets')
-    
-    def extract_starships(self) -> List[Dict]:
-        """
-        Extrae todos los datos de naves espaciales (starships)
-        
-        Returns:
-            Lista de diccionarios con datos de naves espaciales
-        """
-        return self._fetch_all_pages('starships')
-    
     def extract_all(self) -> Dict[str, List[Dict]]:
         """
         Extrae todos los datos de people, planets y starships
@@ -118,23 +91,80 @@ class SWAPIExtractor:
         """
         logger.info("Iniciando extracción de datos de SWAPI...")
         
+        people_extractor = PeopleExtractor(self.base_url, self.delay)
+        planets_extractor = PlanetsExtractor(self.base_url, self.delay)
+        starships_extractor = StarshipsExtractor(self.base_url, self.delay)
+        
         data = {
-            'people': self.extract_people(),
-            'planets': self.extract_planets(),
-            'starships': self.extract_starships()
+            'people': people_extractor.extract(),
+            'planets': planets_extractor.extract(),
+            'starships': starships_extractor.extract()
         }
         
         logger.info("Extracción completada")
         return data
 
 
+class PeopleExtractor(SWAPIExtractorBase):
+    """Clase para extraer datos de personas (people)"""
+    
+    def extract(self) -> List[Dict]:
+        """
+        Extrae todos los datos de personas
+        
+        Returns:
+            Lista de diccionarios con datos de personas
+        """
+        return self._fetch_all_pages('people')
+
+
+class PlanetsExtractor(SWAPIExtractorBase):
+    """Clase para extraer datos de planetas (planets)"""
+    
+    def extract(self) -> List[Dict]:
+        """
+        Extrae todos los datos de planetas
+        
+        Returns:
+            Lista de diccionarios con datos de planetas
+        """
+        return self._fetch_all_pages('planets')
+
+
+class StarshipsExtractor(SWAPIExtractorBase):
+    """Clase para extraer datos de naves espaciales (starships)"""
+    
+    def extract(self) -> List[Dict]:
+        """
+        Extrae todos los datos de naves espaciales
+        
+        Returns:
+            Lista de diccionarios con datos de naves espaciales
+        """
+        return self._fetch_all_pages('starships')
+
+
 if __name__ == "__main__":
-    # Ejemplo de uso
-    extractor = SWAPIExtractor()
+    # Ejemplo de uso con la clase base
+    extractor = SWAPIExtractorBase()
     data = extractor.extract_all()
     
     print(f"\nResumen de extracción:")
-    print(f"  - People: {len(data['people'])} registros")
-    print(f"  - Planets: {len(data['planets'])} registros")
-    print(f"  - Starships: {len(data['starships'])} registros")
+    print(f" Personas: {len(data['people'])} registros")
+    print(f" Planetas: {len(data['planets'])} registros")
+    print(f" Naves espaciales: {len(data['starships'])} registros")
+    
+    # Ejemplo de uso con clases específicas
+    print("\n--- Ejemplo con clases específicas ---")
+    people_extractor = PeopleExtractor()
+    people_data = people_extractor.extract()
+    print(f"Personas extraídas: {len(people_data)} registros")
+    
+    planets_extractor = PlanetsExtractor()
+    planets_data = planets_extractor.extract()
+    print(f"Planetas extraídos: {len(planets_data)} registros")
+    
+    starships_extractor = StarshipsExtractor()
+    starships_data = starships_extractor.extract()
+    print(f"Naves espaciales extraídas: {len(starships_data)} registros")
 
