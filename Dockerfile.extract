@@ -11,7 +11,7 @@ COPY 1.extract/ ./1.extract/
 RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install --no-cache-dir -r 1.extract/requirements.txt
 
-WORKDIR /app/extract
+WORKDIR /app/1.extract
 
 CMD ["python", "run_extract.py"]
 
