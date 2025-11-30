@@ -1,4 +1,4 @@
-# Extracción de datos de SWAPI
+# Extracción de datos de Harry Potter API
 
 import requests
 import time
@@ -11,25 +11,25 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BASE_URL = "https://swapi.dev/api"
+BASE_URL = "https://hp-api.onrender.com/api"
 
 
-class SWAPIExtractorBase:
-    """Clase base para extraer datos de la API SWAPI"""
+class HPExtractorBase:
+    """Clase base para extraer datos de la API de Harry Potter"""
     
     def __init__(self, base_url: str = BASE_URL, delay: float = 0.1):
-        """Inicializa la clase base para extraer datos de la API SWAPI"""
+        """Inicializa la clase base para extraer datos de la API"""
         self.base_url = base_url
         self.delay = delay
         self.session = requests.Session()
     
-    def _make_request(self, url: str) -> Optional[Dict]:
+    def _make_request(self, url: str) -> Optional[List[Dict]]:
         """
         Realiza una petición HTTP a la API
         Args:
             url: URL completa a la que hacer la petición
         Returns:
-            Diccionario con la respuesta JSON o None si hay error
+            Lista con la respuesta JSON o None si hay error
         """
         try:
             time.sleep(self.delay)  # evitamos rate limiting
@@ -40,103 +40,46 @@ class SWAPIExtractorBase:
             logger.error(f"Error en request a {url}: {e}")
             return None
     
-    def _fetch_all_pages(self, endpoint: str) -> List[Dict]:
+    def extract_characters(self) -> List[Dict]:
         """
-        Extrae todos los resultados de un endpoint paginado
+        Extrae todos los personajes de Harry Potter
+        La API devuelve todos los personajes en un solo request (sin paginación)
         
-        Args:
-            endpoint: Endpoint de la API (ej: 'people', 'planets', 'starships')
-            
         Returns:
-            Lista con todos los resultados
+            Lista de diccionarios con datos de personajes
         """
-        all_results = []
-        url = f"{self.base_url}/{endpoint}/"
+        url = f"{self.base_url}/characters"
+        logger.info("Extrayendo personajes de Harry Potter...")
         
-        logger.info(f"Extrayendo {endpoint}...")
+        data = self._make_request(url)
+        if not data:
+            logger.error("No se pudieron extraer los datos")
+            return []
         
-        while url:
-            data = self._make_request(url)
-            if not data:
-                break
-                
-            results = data.get('results', [])
-            all_results.extend(results)
-            logger.info(f"  Página: {len(results)} registros")
-            
-            url = data.get('next')
-        
-        logger.info(f"Total {endpoint}: {len(all_results)}")
-        return all_results
+        logger.info(f"Total personajes extraídos: {len(data)}")
+        return data
     
     def extract_all(self) -> Dict[str, List[Dict]]:
         """
         Extrae todos los datos de la API
         
         Returns:
-            Diccionario con los datos extraídos
-            como people, planets, starships
+            Diccionario con los datos extraídos (characters)
         """
         logger.info("Iniciando extracción...")
         
-        people_extractor = PeopleExtractor(self.base_url, self.delay)
-        planets_extractor = PlanetsExtractor(self.base_url, self.delay)
-        starships_extractor = StarshipsExtractor(self.base_url, self.delay)
-        
         data = {
-            'people': people_extractor.extract(),
-            'planets': planets_extractor.extract(),
-            'starships': starships_extractor.extract()
+            'characters': self.extract_characters()
         }
         
         logger.info("Extracción completada")
         return data
 
 
-class PeopleExtractor(SWAPIExtractorBase):
-    """Clase para extraer datos de personas (people)"""
-    
-    def extract(self) -> List[Dict]:
-        """
-        Extrae todos los datos de personas
-        
-        Returns:
-            Lista de diccionarios con datos de personas
-        """
-        return self._fetch_all_pages('people')
-
-
-class PlanetsExtractor(SWAPIExtractorBase):
-    """Clase para extraer datos de planetas (planets)"""
-    
-    def extract(self) -> List[Dict]:
-        """
-        Extrae todos los datos de planetas
-        
-        Returns:
-            Lista de diccionarios con datos de planetas
-        """
-        return self._fetch_all_pages('planets')
-
-
-class StarshipsExtractor(SWAPIExtractorBase):
-    """Clase para extraer datos de naves espaciales (starships)"""
-    
-    def extract(self) -> List[Dict]:
-        """
-        Extrae todos los datos de naves espaciales
-        
-        Returns:
-            Lista de diccionarios con datos de naves espaciales
-        """
-        return self._fetch_all_pages('starships')
-
-
 if __name__ == "__main__":
-    extractor = SWAPIExtractorBase()
+    extractor = HPExtractorBase()
     data = extractor.extract_all()
     
     print(f"\nResumen:")
-    print(f" Personas: {len(data['people'])}")
-    print(f" Planetas: {len(data['planets'])}")
-    print(f" Naves: {len(data['starships'])}")
+    print(f" one character: {data['characters'][0]}")
+    print(f" Personajes: {len(data['characters'])}")

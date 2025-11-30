@@ -3,10 +3,10 @@
 
 import json
 import os
-from extract import SWAPIExtractorBase
+from extract import HPExtractorBase
 
 if __name__ == "__main__":
-    extractor = SWAPIExtractorBase()
+    extractor = HPExtractorBase()
     data = extractor.extract_all()
     
     # Guardar datos en JSON
@@ -18,7 +18,4 @@ if __name__ == "__main__":
         json.dump(data, f, indent=2)
     
     print(f"\n✓ Datos extraídos guardados en {output_file}")
-    print(f"  People: {len(data['people'])}")
-    print(f"  Planets: {len(data['planets'])}")
-    print(f"  Starships: {len(data['starships'])}")
-
+    print(f"  Characters: {len(data['characters'])}")

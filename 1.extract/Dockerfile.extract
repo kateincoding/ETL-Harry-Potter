@@ -1,0 +1,14 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Instalar dependencias globales
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copiar todo el contenido de la carpeta extract
+COPY 1.extract/ .
+
+WORKDIR /app
+
+CMD ["python", "run_extract.py"]
