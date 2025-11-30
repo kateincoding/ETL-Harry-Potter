@@ -27,6 +27,49 @@ services:
     networks:
       - etl_network
 
+  # Fase 3: Base de datos MongoDB
+  mongo:
+    build:
+      context: .
+      dockerfile: 4.database/Dockerfile.mongo
+    container_name: etl_mongo
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_DATABASE: harry_potter
+    volumes:
+      - mongo_data:/data/db
+      - ./4.database/mongo_setup.py:/app/mongo_setup.py
+    networks:
+      - etl_network
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Fase 4: Carga de data en MongoDB
+  load:
+    build:
+      context: .
+      dockerfile: 3.load/Dockerfile.load
+    container_name: etl_load
+    depends_on:
+      mongo:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data
+    environment:
+      DATA_DIR: /app/data
+      MONGO_CONNECTION: mongodb://admin:password@mongo:27017/harry_potter?authSource=admin
+    networks:
+      - etl_network
+
 networks:
   etl_network:
     driver: bridge
+
+volumes:
+  mongo_data:
