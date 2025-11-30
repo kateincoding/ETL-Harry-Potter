@@ -17,10 +17,10 @@ class MongoSetup:
     
     def __init__(
         self,
-        connection_string: str = "mongodb://localhost:27017/",
+        url_conexion: str = "mongodb://localhost:27017/",
         database_name: str = "harry_potter"
     ):
-        self.connection_string = connection_string
+        self.url_conexion = url_conexion
         self.database_name = database_name
         self.client: MongoClient = None
         self.db = None
@@ -33,7 +33,7 @@ class MongoSetup:
             True si la conexión fue exitosa, False en caso contrario
         """
         try:
-            self.client = MongoClient(self.connection_string)
+            self.client = MongoClient(self.url_conexion)
             self.db = self.client[self.database_name]
             # Verificar conexión
             self.client.admin.command('ping')
