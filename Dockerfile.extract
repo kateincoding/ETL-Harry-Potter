@@ -2,14 +2,12 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
+# Instalar dependencias globales
 COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
 # Copiar carpeta extract completa
 COPY 1.extract/ ./1.extract/
-# COPY extract.py run_extract.py .
-
-# Instalar dependencias
-RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install --no-cache-dir -r 1.extract/requirements.txt
 
 WORKDIR /app/1.extract
 
