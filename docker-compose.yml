@@ -1,33 +1,5 @@
 services:
-  # Fase 1: Extracción de datos
-  extract:
-    build:
-      context: .
-      dockerfile: 1.extract/Dockerfile.extract
-    container_name: etl_extract
-    volumes:
-      - ./data:/app/data
-    environment:
-      OUTPUT_DIR: /app/data
-    networks:
-      - etl_network
-
-  # Fase 2: Transformación de datos
-  transform:
-    build:
-      context: .
-      dockerfile: 2.transform/Dockerfile.transform
-    container_name: etl_transform
-    depends_on:
-      - extract
-    volumes:
-      - ./data:/app/data
-    environment:
-      DATA_DIR: /app/data
-    networks:
-      - etl_network
-
-  # Fase 3: Base de datos MongoDB
+  # El contenedor de MongoDB se puede construir paralelamente a los otros contenedores
   mongo:
     build:
       context: .
@@ -49,8 +21,46 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+  # Fase 1: Extracción de datos
 
-  # Fase 4: Carga de data en MongoDB
+  extract:
+    build:
+      context: .
+      dockerfile: 1.extract/Dockerfile.extract
+    container_name: etl_extract
+    volumes:
+      - ./data:/app/data
+    environment:
+      OUTPUT_DIR: /app/data
+    healthcheck:
+      test: ["CMD", "test", "-f", "/app/data/1.raw_data.json"]
+      interval: 5s
+      timeout: 2s
+      retries: 10
+    networks:
+      - etl_network
+
+  # Fase 2: Transformación de datos
+  transform:
+    build:
+      context: .
+      dockerfile: 2.transform/Dockerfile.transform
+    container_name: etl_transform
+    depends_on:
+      - extract # No lo manejaremos con healthcheck porque no deberiamos dejar el contenedor de extract prendido si ya termino el proceso
+    volumes:
+      - ./data:/app/data
+    environment:
+      DATA_DIR: /app/data
+    healthcheck:
+      test: ["CMD", "test", "-f", "/app/data/2.transform_data.json"]
+      interval: 5s
+      timeout: 2s
+      retries: 10
+    networks:
+      - etl_network
+
+  # Fase 3 Carga de data en MongoDB
   load:
     build:
       context: .

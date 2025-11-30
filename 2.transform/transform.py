@@ -5,6 +5,8 @@ import logging
 import os
 from typing import Dict, List, Optional, Tuple
 from statistics import mean, median, stdev
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -46,7 +48,8 @@ class HPTransformer:
                     'name': character.get('name'),
                     'alternate_names': character.get('alternate_names', []),
                     'house': character.get('house'),
-                    'year_of_birth': self._parse_numeric(character.get('yearOfBirth')),
+                    # 'year_of_birth': self._parse_numeric(character.get('yearOfBirth')),
+                    'year_of_birth': character.get('yearOfBirth'),
                     'ancestry': character.get('ancestry'),  # pureza de sangre
                     'gender': character.get('gender'),  # male/female
                     'species': character.get('species'),
@@ -106,7 +109,8 @@ class DescriptiveAnalysis:
             for key, value in record.items():
                 if key != 'id' and isinstance(value, (int, float)) and not isinstance(value, bool):
                     numeric_cols.add(key)
-        
+
+        print("==============numeric cols:", sorted(list(numeric_cols)))
         return sorted(list(numeric_cols))
     
     def _extract_numeric_values(self, column: str) -> List[float]:
@@ -309,26 +313,87 @@ class DescriptiveAnalysis:
         except Exception as e:
             logger.error(f"Error al guardar reporte: {e}")
             return False
+    
+    def plot_bivariate(self, x_column: str, y_column: str, output_path: str):
+        """
+        Genera un gráfico bivariante entre una variable numérica y la variable dependiente categórica.
+        argumentos:
+            x_column: Variable numérica (ej: 'wand_length')
+            y_column: Variable dependiente (ej: 'house')
+            output_path: Ruta para guardar la imagen (.png)
+        """
+        try:
+            # Filtrar datos válidos
+            x_vals = []
+            y_vals = []
+            for record in self.data:
+                x = record.get(x_column)
+                y = record.get(y_column)
+                if x is not None and isinstance(x, (int, float)) and y is not None:
+                    x_vals.append(x)
+                    y_vals.append(y)
+            
+            if not x_vals or not y_vals:
+                logger.warning(f"No hay datos válidos para graficar {x_column} vs {y_column}")
+                return
+            
+            # Crear DataFrame temporal
+            import pandas as pd
+            df = pd.DataFrame({x_column: x_vals, y_column: y_vals})
+            
+            # Crear gráfico
+            plt.figure(figsize=(10, 6))
+            sns.boxplot(x=y_column, y=x_column, data=df)
+            sns.stripplot(x=y_column, y=x_column, data=df, color='black', alpha=0.3, jitter=True)
+            
+            plt.title(f"{x_column} vs {y_column}")
+            plt.xticks(rotation=45)
+            plt.tight_layout()
+            
+            # Guardar imagen
+            plt.savefig(output_path)
+            plt.close()
+            logger.info(f"Gráfica guardada en {output_path}")
+        except Exception as e:
+            logger.error(f"Error generando gráfica {x_column} vs {y_column}: {e}")
+    
+    def plot_all_bivariates(self, dependent_variable: str = 'house', output_dir: str = './plots'):
+        """Genera gráficas para todas las variables numéricas vs variable dependiente"""
+        numeric_cols = self._get_numeric_columns()
+        logger.info(f"numeric variables:  {numeric_cols}")
+        for col in numeric_cols:
+            self.plot_bivariate(col, dependent_variable, os.path.join(output_dir, f"{col}_vs_{dependent_variable}.png"))
 
+    def generate_html_report(self, plots_dir: str, output_html: str):
+        """
+        Genera un HTML simple metricas como las gráficas bivariantes.
+        Argumentos:
+            plots_dir: Carpeta donde están las imágenes generadas
+            output_html: Ruta del archivo HTML a generar
+        """
+        try:
+            # Listar imágenes
+            images = sorted([f for f in os.listdir(plots_dir) if f.lower().endswith(('.png', '.jpeg', '.jpg'))])
+            if not images:
+                logger.warning(f"No se encontraron imágenes en {plots_dir}")
+                return
 
-if __name__ == "__main__":
-    import json
-    
-    data_dir = os.getenv('DATA_DIR', '/app/data')
-    input_file = os.path.join(data_dir, '1.raw_data.json')
-    
-    if not os.path.exists(input_file):
-        logger.error(f"No se encontró {input_file}")
-        exit(1)
-    
-    with open(input_file, 'r') as f:
-        raw_data = json.load(f)
-    
-    transformer = HPTransformer()
-    transformed_data = transformer.transform_all(raw_data)
-    
-    output_file = os.path.join(data_dir, '2.transformed_data.json')
-    with open(output_file, 'w') as f:
-        json.dump(transformed_data, f, indent=2)
-    
-    logger.info(f"Datos transformados guardados en {output_file}")
+            html_content = "<html><head><title>Reporte de Gráficas</title></head><body>\n"
+            html_content += "<h1>Reporte de Gráficas Bivariantes</h1>\n"
+
+            for img in images:
+                img_path = os.path.join(os.path.basename(plots_dir), img)
+                html_content += f"<div style='margin-bottom: 30px;'>\n"
+                html_content += f"<h3>{img.replace('_', ' ').replace('.png','')}</h3>\n"
+                html_content += f"<img src='{img_path}' style='max-width: 800px; width: 100%;'>\n"
+                html_content += "</div>\n"
+
+            html_content += "</body></html>"
+
+            os.makedirs(os.path.dirname(output_html), exist_ok=True)
+            with open(output_html, 'w') as f:
+                f.write(html_content)
+
+            logger.info(f"HTML report generado en {output_html}")
+        except Exception as e:
+            logger.error(f"Error generando HTML: {e}")

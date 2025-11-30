@@ -3,38 +3,59 @@
 # Transform es independiente: Lee 1.raw_data.json y genera 2.transformed_data.json y analysis_report.json
 
 import json
+import time
 import os
 from transform import HPTransformer, DescriptiveAnalysis
 
 if __name__ == "__main__":
-    # Leer datos extraídos
-    data_dir = os.getenv('DATA_DIR', '/app/data')
-    input_file = os.path.join(data_dir, '1.raw_data.json')
+    # inicializamos el transform una vez el extract haya generado el archivo
+    print("Trigger del raw_data file: Esperando a que extract genere el archivo...")
+    path = "/app/data/1.raw_data.json"
+    while not os.path.exists(path):
+        time.sleep(2)
+    print("Se encontro raw_data encontrado, iniciamos el transform")
+
+    data_directory = os.getenv('DATA_DIR', '/app/data')
+    input_file = os.path.join(data_directory, '1.raw_data.json')
     
     if not os.path.exists(input_file):
         print(f"Error: No se encontró {input_file}")
         exit(1)
+
+    # Creo carpetas si no existen que necesitare
+    plots_dir = os.path.join(data_directory, 'plots')
+    html_file = os.path.join(data_directory, 'report.html')
+    os.makedirs(plots_dir, exist_ok=True)
+    os.makedirs(os.path.dirname(html_file), exist_ok=True)
     
     with open(input_file, 'r') as f:
         raw_data = json.load(f)
     
-    # Transformar datos
+    # Aqui llamamos a la parte de transformación de datos
     transformer = HPTransformer()
     transformed_data = transformer.transform_all(raw_data)
     
-    # Guardar datos transformados
-    output_file = os.path.join(data_dir, '2.transformed_data.json')
+    output_file = os.path.join(data_directory, '2.transformed_data.json')
     with open(output_file, 'w') as f:
         json.dump(transformed_data, f, indent=2)
     
     print(f"\n✓ Datos transformados guardados en {output_file}")
     print(f"  Characters: {len(transformed_data['characters'])}")
     
-    # Generar análisis descriptivo
+    # Aqui generamos el análisis descriptivo
     if transformed_data['characters']:
         analysis = DescriptiveAnalysis(transformed_data['characters'])
-        report_file = os.path.join(data_dir, 'analysis_report.json')
+        report_file = os.path.join(data_directory, 'analysis_report.json')
         if analysis.save_report(report_file, dependent_variable='house', top_n=4):
             print(f"✓ Reporte de análisis guardado en {report_file}")
         else:
             print(f"✗ Error al guardar reporte de análisis")
+        
+        # Generar todas las gráficas
+        plots_dir = os.path.join(data_directory, 'plots')
+        analysis.plot_all_bivariates(dependent_variable='house', output_dir=plots_dir)
+        
+        # Generar HTML
+        html_file = os.path.join(data_directory, 'report.html')
+        analysis.generate_html_report(plots_dir=plots_dir, output_html=html_file)
+        print(f"✓ HTML con gráficas generado en {html_file}")

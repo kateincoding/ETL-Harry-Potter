@@ -124,25 +124,3 @@ class LoadHpToMongo:
         finally:
             self.disconnect()
 
-
-if __name__ == "__main__":
-    import json
-    import os
-    data_dir = os.getenv('DATA_DIR', './data')
-    input_file = os.path.join(data_dir, '2.transformed_data.json')
-    
-    if os.path.exists(input_file):
-        with open(input_file, 'r') as f:
-            transformed_data = json.load(f)
-        
-        # Cargar en MongoDB
-        loader = LoadHpToMongo()
-        results = loader.load_all(transformed_data)
-        loader.close()
-        
-        print(f"\nResumen de carga en MongoDB:")
-        print(f"  - Characters: {results['characters']} documentos")
-    else:
-        print(f"Error: No se encontró {input_file}")
-        exit(1)
-

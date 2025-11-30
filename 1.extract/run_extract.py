@@ -19,4 +19,4 @@ if __name__ == "__main__":
         json.dump(data, f, indent=2)
     
     print(f"\n✓ Datos extraídos guardados en {output_file}")
-    print(f"  Characters: {len(data['characters'])}")
+    print(f"Se extrajo: {len(data['characters'])}")

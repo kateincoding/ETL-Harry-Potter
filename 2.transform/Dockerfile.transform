@@ -2,9 +2,11 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
 COPY 2.transform/ .
+COPY requirements.txt requirements-global.txt
+
+# Aqui instalamos los requirements globales y luego propios 
+RUN pip install --no-cache-dir -r requirements-global.txt && \
+    pip install --no-cache-dir -r requirements.txt
 
 CMD ["python", "run_transform.py"]

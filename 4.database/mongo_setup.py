@@ -27,10 +27,7 @@ class MongoSetup:
     
     def connect(self) -> bool:
         """
-        Establece conexión con MongoDB
-        
-        Returns:
-            True si la conexión fue exitosa, False en caso contrario
+        conexión con MongoDB
         """
         try:
             self.client = MongoClient(self.url_conexion)
@@ -67,7 +64,7 @@ class MongoSetup:
         return True
     
     def create_indexes(self):
-        """Crea índices para mejorar el rendimiento de las consultas"""
+        """Crea índices"""
         if not self.db:
             logger.error("No hay conexión")
             return False
@@ -91,9 +88,7 @@ class MongoSetup:
     def setup_all(self):
         """
         Ejecuta todo el setup: crea colecciones e índices
-        
-        Returns:
-            True si todo fue exitoso, False en caso contrario
+        retorna true si es exitoso
         """
         if not self.connect():
             return False
@@ -117,10 +112,8 @@ class MongoSetup:
     
     def drop_collections(self):
         """
-        Elimina todas las colecciones (¡CUIDADO! Esto borra todos los datos)
-        
-        Returns:
-            True si fue exitoso, False en caso contrario
+        Elimina todas las colecciones
+        Retorna True si fue exitoso, False en caso contrario
         """
         if not self.db:
             logger.error("No hay conexión")

@@ -4,10 +4,17 @@
 
 import json
 import os
+import time
 from load import LoadHpToMongo
 
 if __name__ == "__main__":
-    # Leer datos transformados
+    print("Trigger del transformed_data. file: Esperando a que extract genere el archivo...")
+    path = "/app/data/2.transformed_data.json"
+    while not os.path.exists(path):
+        time.sleep(2)
+    print("Se encontro 2.transformed_data encontrado, iniciamos el load")
+
+    # Lectura de la data 
     data_dir = os.getenv('DATA_DIR', '/app/data')
     input_file = os.path.join(data_dir, '2.transformed_data.json')
     
