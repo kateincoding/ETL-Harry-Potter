@@ -21,6 +21,12 @@ if __name__ == "__main__":
     if not os.path.exists(input_file):
         print(f"Error: No se encontró {input_file}")
         exit(1)
+
+    # Creo carpetas si no existen que necesitare
+    plots_dir = os.path.join(data_directory, 'plots')
+    html_file = os.path.join(data_directory, 'report.html')
+    os.makedirs(plots_dir, exist_ok=True)
+    os.makedirs(os.path.dirname(html_file), exist_ok=True)
     
     with open(input_file, 'r') as f:
         raw_data = json.load(f)
@@ -44,3 +50,12 @@ if __name__ == "__main__":
             print(f"✓ Reporte de análisis guardado en {report_file}")
         else:
             print(f"✗ Error al guardar reporte de análisis")
+        
+        # Generar todas las gráficas
+        plots_dir = os.path.join(data_directory, 'plots')
+        analysis.plot_all_bivariates(dependent_variable='house', output_dir=plots_dir)
+        
+        # Generar HTML
+        html_file = os.path.join(data_directory, 'report.html')
+        analysis.generate_html_report(plots_dir=plots_dir, output_html=html_file)
+        print(f"✓ HTML con gráficas generado en {html_file}")
