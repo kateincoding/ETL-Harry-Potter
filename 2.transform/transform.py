@@ -309,26 +309,3 @@ class DescriptiveAnalysis:
         except Exception as e:
             logger.error(f"Error al guardar reporte: {e}")
             return False
-
-
-if __name__ == "__main__":
-    import json
-    
-    data_dir = os.getenv('DATA_DIR', '/app/data')
-    input_file = os.path.join(data_dir, '1.raw_data.json')
-    
-    if not os.path.exists(input_file):
-        logger.error(f"No se encontró {input_file}")
-        exit(1)
-    
-    with open(input_file, 'r') as f:
-        raw_data = json.load(f)
-    
-    transformer = HPTransformer()
-    transformed_data = transformer.transform_all(raw_data)
-    
-    output_file = os.path.join(data_dir, '2.transformed_data.json')
-    with open(output_file, 'w') as f:
-        json.dump(transformed_data, f, indent=2)
-    
-    logger.info(f"Datos transformados guardados en {output_file}")

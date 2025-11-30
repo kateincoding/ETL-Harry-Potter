@@ -67,12 +67,3 @@ class HPExtractorBase:
         
         logger.info("Extracción completada")
         return data
-
-
-if __name__ == "__main__":
-    extractor = HPExtractorBase()
-    data = extractor.extract_all()
-    
-    print(f"\nResumen:")
-    print(f" one character: {data['characters'][0]}")
-    print(f" Personajes: {len(data['characters'])}")

@@ -8,8 +8,8 @@ from transform import HPTransformer, DescriptiveAnalysis
 
 if __name__ == "__main__":
     # Leer datos extraídos
-    data_dir = os.getenv('DATA_DIR', '/app/data')
-    input_file = os.path.join(data_dir, '1.raw_data.json')
+    data_directory = os.getenv('DATA_DIR', '/app/data')
+    input_file = os.path.join(data_directory, '1.raw_data.json')
     
     if not os.path.exists(input_file):
         print(f"Error: No se encontró {input_file}")
@@ -18,22 +18,21 @@ if __name__ == "__main__":
     with open(input_file, 'r') as f:
         raw_data = json.load(f)
     
-    # Transformar datos
+    # Aqui llamamos a la parte de transformación de datos
     transformer = HPTransformer()
     transformed_data = transformer.transform_all(raw_data)
     
-    # Guardar datos transformados
-    output_file = os.path.join(data_dir, '2.transformed_data.json')
+    output_file = os.path.join(data_directory, '2.transformed_data.json')
     with open(output_file, 'w') as f:
         json.dump(transformed_data, f, indent=2)
     
     print(f"\n✓ Datos transformados guardados en {output_file}")
     print(f"  Characters: {len(transformed_data['characters'])}")
     
-    # Generar análisis descriptivo
+    # Aqui generamos el análisis descriptivo
     if transformed_data['characters']:
         analysis = DescriptiveAnalysis(transformed_data['characters'])
-        report_file = os.path.join(data_dir, 'analysis_report.json')
+        report_file = os.path.join(data_directory, 'analysis_report.json')
         if analysis.save_report(report_file, dependent_variable='house', top_n=4):
             print(f"✓ Reporte de análisis guardado en {report_file}")
         else:
