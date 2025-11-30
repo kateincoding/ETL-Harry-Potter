@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  # Fase 1: Extracción de datos
+  extract:
+    build:
+      context: .
+      dockerfile: 1.extract/Dockerfile.extract
+    container_name: etl_extract
+    volumes:
+      - ./data:/app/data
+    environment:
+      OUTPUT_DIR: /app/data
+    networks:
+      - etl_network
+
+  # Fase 2: Transformación de datos
+  transform:
+    build:
+      context: .
+      dockerfile: 2.transform/Dockerfile.transform
+    container_name: etl_transform
+    depends_on:
+      - extract
+    volumes:
+      - ./data:/app/data
+    environment:
+      DATA_DIR: /app/data
+    networks:
+      - etl_network
+
+networks:
+  etl_network:
+    driver: bridge
