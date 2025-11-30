@@ -1,0 +1,10 @@
+# Dockerfile para MongoDB con configuración personalizada
+
+FROM mongo:7
+
+# Exponer puerto
+EXPOSE 27017
+
+# El entrypoint por defecto de la imagen oficial ya maneja la inicialización
+CMD ["mongod"]
+
