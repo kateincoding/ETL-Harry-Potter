@@ -1,33 +1,18 @@
 # Transformación de datos y carga en MongoDB
 
+import json
 import logging
-import sys
 import os
 from typing import Dict, List, Optional
-
-# Agregar ruta para importar extract
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '1.extract'))
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 
 class HPTransformer:
-    def __init__(
-        self,
-        mongo_connection_string: Optional[str] = None,
-        mongo_database_name: str = "harry_potter",
-        load_to_mongo: bool = True
-    ):
-        self.load_to_mongo = load_to_mongo
-        if load_to_mongo:
-            from load import MongoLoader
-            self.loader = MongoLoader(
-                connection_string=mongo_connection_string or "mongodb://localhost:27017/",
-                database_name=mongo_database_name
-            )
-        else:
-            self.loader = None
+    def __init__(self):
+        """Inicializa el transformador. Transform es independiente de MongoDB."""
+        pass
     
     def _parse_numeric(self, value) -> Optional[float]:
         """Convierte un valor a float si es posible"""
@@ -67,9 +52,9 @@ class HPTransformer:
                     'wizard': character.get('wizard'),
                     # Información de la varita
                     'wand': {
-                        'wood': wand.get('wood'),  # madera
-                        'core': wand.get('core'),  # núcleo
-                        'length': self._parse_numeric(wand.get('length'))  # longitud
+                        'wood': wand.get('wood'),  # material de la madera de la varita
+                        'core': wand.get('core'),  # núcleo de la varita
+                        'length': self._parse_numeric(wand.get('length')) 
                     },
                     # Información adicional del personaje
                     'patronus': character.get('patronus'),
@@ -91,7 +76,8 @@ class HPTransformer:
         logger.info(f"Characters transformados: {len(transformed)}")
         return transformed
     
-    def transform_all(self, raw_data: Dict[str, List[Dict]], load_to_mongo: Optional[bool] = None) -> Dict[str, List[Dict]]:
+    def transform_all(self, raw_data: Dict[str, List[Dict]]) -> Dict[str, List[Dict]]:
+        """Transforma los datos crudos a formato final."""
         logger.info("Transformando datos...")
         
         transformed_data = {
@@ -99,25 +85,30 @@ class HPTransformer:
         }
         
         logger.info("Transformación completada")
-        
-        # cargar en mongo si está habilitado
-        should_load = load_to_mongo if load_to_mongo is not None else self.load_to_mongo
-        if should_load and self.loader:
-            logger.info("Cargando en MongoDB...")
-            load_results = self.loader.load_all(transformed_data, replace=True)
-            logger.info(f"Carga completada: {load_results}")
-        
         return transformed_data
 
 
 if __name__ == "__main__":
-    from extract import HPExtractorBase
+    import json
     
-    extractor = HPExtractorBase()
-    raw_data = extractor.extract_all()
+    # Leer datos extraídos
+    data_dir = os.getenv('DATA_DIR', '/app/data')
+    input_file = os.path.join(data_dir, '1.raw_data.json')
     
+    if not os.path.exists(input_file):
+        logger.error(f"No se encontró {input_file}")
+        exit(1)
+    
+    with open(input_file, 'r') as f:
+        raw_data = json.load(f)
+    
+    # Transformar
     transformer = HPTransformer()
     transformed_data = transformer.transform_all(raw_data)
     
-    print(f"\nResumen:")
-    print(f"  Characters: {len(transformed_data['characters'])}")
+    # Guardar datos transformados
+    output_file = os.path.join(data_dir, '2.transformed_data.json')
+    with open(output_file, 'w') as f:
+        json.dump(transformed_data, f, indent=2)
+    
+    logger.info(f"Datos transformados guardados en {output_file}")

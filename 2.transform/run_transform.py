@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # Script para ejecutar solo la fase de Transform
+# Transform es independiente: Lee 1.raw_data.json y genera transformed_data.json
 
 import json
 import os
@@ -8,7 +9,7 @@ from transform import HPTransformer
 if __name__ == "__main__":
     # Leer datos extraídos
     data_dir = os.getenv('DATA_DIR', '/app/data')
-    input_file = os.path.join(data_dir, 'raw_data.json')
+    input_file = os.path.join(data_dir, '1.raw_data.json')
     
     if not os.path.exists(input_file):
         print(f"Error: No se encontró {input_file}")
@@ -18,8 +19,8 @@ if __name__ == "__main__":
         raw_data = json.load(f)
     
     # Transformar datos
-    transformer = HPTransformer(load_to_mongo=False)
-    transformed_data = transformer.transform_all(raw_data, load_to_mongo=False)
+    transformer = HPTransformer()
+    transformed_data = transformer.transform_all(raw_data)
     
     # Guardar datos transformados
     output_file = os.path.join(data_dir, 'transformed_data.json')
