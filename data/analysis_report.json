@@ -1,0 +1,46 @@
+{
+  "total_records": 437,
+  "total_columns": 22,
+  "statistical_summary": {
+    "wand_length": {
+      "mean": 11.229166666666666,
+      "median": 10.375,
+      "q1": 9.5,
+      "q3": 12.75,
+      "std": 2.403481020206474,
+      "min": 8.0,
+      "max": 18.0,
+      "count": 24
+    },
+    "year_of_birth": {
+      "mean": 1956.8695652173913,
+      "median": 1960.0,
+      "q1": 1950.0,
+      "q3": 1980.0,
+      "std": 28.204294237557782,
+      "min": 1881.0,
+      "max": 1981.0,
+      "count": 23
+    }
+  },
+  "best_features": [
+    [
+      "wand_length",
+      0.27616685200262747
+    ],
+    [
+      "year_of_birth",
+      0.18709091254562718
+    ]
+  ],
+  "correlation_matrix": {
+    "wand_length": {
+      "wand_length": 1.0,
+      "year_of_birth": -0.2284
+    },
+    "year_of_birth": {
+      "wand_length": -0.2284,
+      "year_of_birth": 1.0
+    }
+  }
+}

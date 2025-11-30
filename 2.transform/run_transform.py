@@ -3,11 +3,18 @@
 # Transform es independiente: Lee 1.raw_data.json y genera 2.transformed_data.json y analysis_report.json
 
 import json
+import time
 import os
 from transform import HPTransformer, DescriptiveAnalysis
 
 if __name__ == "__main__":
-    # Leer datos extraídos
+    # inicializamos el transform una vez el extract haya generado el archivo
+    print("Trigger del raw_data file: Esperando a que extract genere el archivo...")
+    path = "/app/data/1.raw_data.json"
+    while not os.path.exists(path):
+        time.sleep(2)
+    print("Se encontro raw_data encontrado, iniciamos el transform")
+
     data_directory = os.getenv('DATA_DIR', '/app/data')
     input_file = os.path.join(data_directory, '1.raw_data.json')
     

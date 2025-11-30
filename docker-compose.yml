@@ -1,5 +1,28 @@
 services:
+  # El contenedor de MongoDB se puede construir paralelamente a los otros contenedores
+  mongo:
+    build:
+      context: .
+      dockerfile: 4.database/Dockerfile.mongo
+    container_name: etl_mongo
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_DATABASE: harry_potter
+    volumes:
+      - mongo_data:/data/db
+      - ./4.database/mongo_setup.py:/app/mongo_setup.py
+    networks:
+      - etl_network
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
   # Fase 1: Extracción de datos
+
   extract:
     build:
       context: .
@@ -24,8 +47,7 @@ services:
       dockerfile: 2.transform/Dockerfile.transform
     container_name: etl_transform
     depends_on:
-      extract:
-        condition: service_healthy
+      - extract # No lo manejaremos con healthcheck porque no deberiamos dejar el contenedor de extract prendido si ya termino el proceso
     volumes:
       - ./data:/app/data
     environment:
@@ -38,30 +60,7 @@ services:
     networks:
       - etl_network
 
-  # Fase 3: Base de datos MongoDB
-  mongo:
-    build:
-      context: .
-      dockerfile: 4.database/Dockerfile.mongo
-    container_name: etl_mongo
-    ports:
-      - "27017:27017"
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: admin
-      MONGO_INITDB_ROOT_PASSWORD: password
-      MONGO_INITDB_DATABASE: harry_potter
-    volumes:
-      - mongo_data:/data/db
-      - ./4.database/mongo_setup.py:/app/mongo_setup.py
-    networks:
-      - etl_network
-    healthcheck:
-      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-
-  # Fase 4: Carga de data en MongoDB
+  # Fase 3 Carga de data en MongoDB
   load:
     build:
       context: .
@@ -69,8 +68,6 @@ services:
     container_name: etl_load
     depends_on:
       mongo:
-        condition: service_healthy
-      transform:
         condition: service_healthy
     volumes:
       - ./data:/app/data
