@@ -9,6 +9,11 @@ services:
       - ./data:/app/data
     environment:
       OUTPUT_DIR: /app/data
+    healthcheck:
+      test: ["CMD", "test", "-f", "/app/data/1.raw_data.json"]
+      interval: 5s
+      timeout: 2s
+      retries: 10
     networks:
       - etl_network
 
@@ -19,11 +24,17 @@ services:
       dockerfile: 2.transform/Dockerfile.transform
     container_name: etl_transform
     depends_on:
-      - extract
+      extract:
+        condition: service_healthy
     volumes:
       - ./data:/app/data
     environment:
       DATA_DIR: /app/data
+    healthcheck:
+      test: ["CMD", "test", "-f", "/app/data/2.transform_data.json"]
+      interval: 5s
+      timeout: 2s
+      retries: 10
     networks:
       - etl_network
 
@@ -58,6 +69,8 @@ services:
     container_name: etl_load
     depends_on:
       mongo:
+        condition: service_healthy
+      transform:
         condition: service_healthy
     volumes:
       - ./data:/app/data
