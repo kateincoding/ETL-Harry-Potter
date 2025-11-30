@@ -40,16 +40,20 @@ class HPTransformer:
         transformed = []
         for character in characters_data:
             try:
+                wizard = bool(character.get('wizard'))
+                # Filtramos la data para solo tener a los wizard
+                if wizard is False:
+                    continue
                 # Extraer información de la varita
                 wand = character.get('wand', {})
+                year_of_birth = self._parse_numeric(character.get('yearOfBirth'))
                 
                 transformed_character = {
                     'id': character.get('id'),
                     'name': character.get('name'),
                     'alternate_names': character.get('alternate_names', []),
                     'house': character.get('house'),
-                    # 'year_of_birth': self._parse_numeric(character.get('yearOfBirth')),
-                    'year_of_birth': character.get('yearOfBirth'),
+                    'year_of_birth': int(year_of_birth) if year_of_birth is not None else None, #transofrmamos en dos pasos para evitar errores
                     'ancestry': character.get('ancestry'),  # pureza de sangre
                     'gender': character.get('gender'),  # male/female
                     'species': character.get('species'),
@@ -385,6 +389,7 @@ class DescriptiveAnalysis:
                 img_path = os.path.join(os.path.basename(plots_dir), img)
                 html_content += f"<div style='margin-bottom: 30px;'>\n"
                 html_content += f"<h3>{img.replace('_', ' ').replace('.png','')}</h3>\n"
+                html_content += f"<p>Aqui observamos la relación entre estas dos variables: {img.replace('_', ' ').replace('.png', '')} en donde 'house' es la casa en donde pertenece el mago</p>\n"
                 html_content += f"<img src='{img_path}' style='max-width: 800px; width: 100%;'>\n"
                 html_content += "</div>\n"
 

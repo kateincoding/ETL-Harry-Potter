@@ -1,6 +1,7 @@
-# Docker Setup para ETL Star Wars
+# Docker Setup para ETL Harry Potter
 
 Este proyecto esta compuesto por Dockerfiles separados para cada fase del ETL y un docker-compose para orquestar todo el proceso.
+El objetivo es crear un ETL que me gusarde los datos que necesite para posteriormente alimente al modelo de predicción de casas (sombrero seleccionador)
 
 ## Estructura
 
@@ -101,10 +102,10 @@ MongoDB se ejecuta en un contenedor separado y está disponible en `localhost:27
 
 ```bash
 # Conectarse a MongoDB
-docker exec -it star_wars_mongo mongosh
+docker exec -it etl_mongo mongosh
 
 # O desde fuera del contenedor
-mongosh mongodb://localhost:27017/star_wars
+mongosh mongodb://localhost:27017/harry_potter
 ```
 
 ### Setup inicial de MongoDB

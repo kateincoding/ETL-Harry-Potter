@@ -9,6 +9,7 @@ from transform import HPTransformer, DescriptiveAnalysis
 
 if __name__ == "__main__":
     # inicializamos el transform una vez el extract haya generado el archivo
+    print("iniciando transform...")
     print("Trigger del raw_data file: Esperando a que extract genere el archivo...")
     path = "/app/data/1.raw_data.json"
     while not os.path.exists(path):
@@ -58,4 +59,10 @@ if __name__ == "__main__":
         # Generar HTML
         html_file = os.path.join(data_directory, 'report.html')
         analysis.generate_html_report(plots_dir=plots_dir, output_html=html_file)
+
+        # Para publicar en docs/
+        docs_directory = os.getenv('DATA_DIR', '/app/docs')
+        html_file_pages = os.path.join(docs_directory, 'index.html')
+        analysis.generate_html_report(plots_dir=plots_dir, output_html=html_file_pages)
         print(f"✓ HTML con gráficas generado en {html_file}")
+        print(f"✓ HTML con gráficas generado para pages en {html_file_pages}")

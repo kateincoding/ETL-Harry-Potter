@@ -1,5 +1,5 @@
 {
-  "total_records": 437,
+  "total_records": 366,
   "total_columns": 22,
   "statistical_summary": {
     "wand_length": {
@@ -13,14 +13,14 @@
       "count": 24
     },
     "year_of_birth": {
-      "mean": 1956.8695652173913,
+      "mean": 1955.8181818181818,
       "median": 1960.0,
       "q1": 1950.0,
       "q3": 1980.0,
-      "std": 28.204294237557782,
+      "std": 28.402944789709267,
       "min": 1881.0,
       "max": 1981.0,
-      "count": 23
+      "count": 22
     }
   },
   "best_features": [
@@ -30,7 +30,7 @@
     ],
     [
       "year_of_birth",
-      0.18709091254562718
+      0.10405364844225247
     ]
   ],
   "correlation_matrix": {
