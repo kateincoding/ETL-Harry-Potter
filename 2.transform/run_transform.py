@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # Script para ejecutar solo la fase de Transform
-# Transform es independiente: Lee 1.raw_data.json y genera 2.transformed_data.json
+# Transform es independiente: Lee 1.raw_data.json y genera 2.transformed_data.json y analysis_report.json
 
 import json
 import os
-from transform import HPTransformer
+from transform import HPTransformer, DescriptiveAnalysis
 
 if __name__ == "__main__":
     # Leer datos extraídos
@@ -29,3 +29,12 @@ if __name__ == "__main__":
     
     print(f"\n✓ Datos transformados guardados en {output_file}")
     print(f"  Characters: {len(transformed_data['characters'])}")
+    
+    # Generar análisis descriptivo
+    if transformed_data['characters']:
+        analysis = DescriptiveAnalysis(transformed_data['characters'])
+        report_file = os.path.join(data_dir, 'analysis_report.json')
+        if analysis.save_report(report_file, dependent_variable='house', top_n=4):
+            print(f"✓ Reporte de análisis guardado en {report_file}")
+        else:
+            print(f"✗ Error al guardar reporte de análisis")

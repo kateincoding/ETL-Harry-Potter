@@ -15,11 +15,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "holly",
-        "core": "phoenix tail feather",
-        "length": 11.0
-      },
+      "wand_wood": "holly",
+      "wand_core": "phoenix tail feather",
+      "wand_length": 11.0,
       "patronus": "stag",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -46,11 +44,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "vine",
-        "core": "dragon heartstring",
-        "length": 10.75
-      },
+      "wand_wood": "vine",
+      "wand_core": "dragon heartstring",
+      "wand_length": 10.75,
       "patronus": "otter",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -80,11 +76,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "willow",
-        "core": "unicorn tail hair",
-        "length": 14.0
-      },
+      "wand_wood": "willow",
+      "wand_core": "unicorn tail hair",
+      "wand_length": 14.0,
       "patronus": "Jack Russell terrier",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -106,11 +100,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "hawthorn",
-        "core": "unicorn tail hair",
-        "length": 10.0
-      },
+      "wand_wood": "hawthorn",
+      "wand_core": "unicorn tail hair",
+      "wand_length": 10.0,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -132,11 +124,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "fir",
-        "core": "dragon heartstring",
-        "length": 9.5
-      },
+      "wand_wood": "fir",
+      "wand_core": "dragon heartstring",
+      "wand_length": 9.5,
       "patronus": "tabby cat",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -158,11 +148,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "ash",
-        "core": "unicorn hair",
-        "length": 12.25
-      },
+      "wand_wood": "ash",
+      "wand_core": "unicorn hair",
+      "wand_length": 12.25,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -184,11 +172,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "swan",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -214,11 +200,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "doe",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -243,11 +227,9 @@
       "gender": "male",
       "species": "half-giant",
       "wizard": true,
-      "wand": {
-        "wood": "oak",
-        "core": "",
-        "length": 16.0
-      },
+      "wand_wood": "oak",
+      "wand_core": "",
+      "wand_length": 16.0,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -269,11 +251,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "cherry",
-        "core": "unicorn tail hair",
-        "length": 13.0
-      },
+      "wand_wood": "cherry",
+      "wand_core": "unicorn tail hair",
+      "wand_length": 13.0,
       "patronus": "Non-Corporeal",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -297,11 +277,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "hare",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -323,11 +301,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "yew",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "yew",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "horse",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -352,11 +328,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "hare",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -385,11 +359,9 @@
       "gender": "male",
       "species": "werewolf",
       "wizard": true,
-      "wand": {
-        "wood": "cypress",
-        "core": "unicorn tail hair",
-        "length": 10.25
-      },
+      "wand_wood": "cypress",
+      "wand_core": "unicorn tail hair",
+      "wand_length": 10.25,
       "patronus": "wolf",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -411,11 +383,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "weasel",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -439,11 +409,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "walnut",
-        "core": "dragon heartstring",
-        "length": 12.75
-      },
+      "wand_wood": "walnut",
+      "wand_core": "dragon heartstring",
+      "wand_length": 12.75,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -472,11 +440,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "yew",
-        "core": "phoenix tail feather",
-        "length": 13.5
-      },
+      "wand_wood": "yew",
+      "wand_core": "phoenix tail feather",
+      "wand_length": 13.5,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -498,11 +464,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "cedar",
-        "core": "dragon heartstring",
-        "length": 10.25
-      },
+      "wand_wood": "cedar",
+      "wand_core": "dragon heartstring",
+      "wand_length": 10.25,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -524,11 +488,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "lynx",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -550,11 +512,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "birch",
-        "core": "dragon heartstring",
-        "length": 8.0
-      },
+      "wand_wood": "birch",
+      "wand_core": "dragon heartstring",
+      "wand_length": 8.0,
       "patronus": "persian cat",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -576,11 +536,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "elm",
-        "core": "dragon heartstring",
-        "length": 18.0
-      },
+      "wand_wood": "elm",
+      "wand_core": "dragon heartstring",
+      "wand_length": 18.0,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -602,11 +560,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -628,11 +584,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -654,11 +608,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -680,11 +632,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -706,11 +656,9 @@
       "gender": "female",
       "species": "cat",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -732,11 +680,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -758,11 +704,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -784,11 +728,9 @@
       "gender": "female",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -810,11 +752,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -838,11 +778,9 @@
       "gender": "",
       "species": "snake",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -864,11 +802,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "willow",
-        "core": "",
-        "length": 10.25
-      },
+      "wand_wood": "willow",
+      "wand_core": "",
+      "wand_length": 10.25,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -892,11 +828,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "mahogany",
-        "core": "",
-        "length": 11.0
-      },
+      "wand_wood": "mahogany",
+      "wand_core": "",
+      "wand_length": 11.0,
       "patronus": "stag",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -920,11 +854,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "Phoenix",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -948,11 +880,9 @@
       "gender": "male",
       "species": "phoenix",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -976,11 +906,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -1004,11 +932,9 @@
       "gender": "female",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1035,11 +961,9 @@
       "gender": "female",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1061,11 +985,9 @@
       "gender": "male",
       "species": "dog",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1087,11 +1009,9 @@
       "gender": "female",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1113,11 +1033,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1139,11 +1057,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1165,11 +1081,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1191,11 +1105,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1217,11 +1129,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1243,11 +1153,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1269,11 +1177,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1295,11 +1201,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1323,11 +1227,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1349,11 +1251,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1377,11 +1277,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1406,11 +1304,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1432,11 +1328,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1460,11 +1354,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1488,11 +1380,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "alder",
-        "core": "unicorn hair",
-        "length": 9.0
-      },
+      "wand_wood": "alder",
+      "wand_core": "unicorn hair",
+      "wand_length": 9.0,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -1514,11 +1404,9 @@
       "gender": "male",
       "species": "goblin",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1542,11 +1430,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1568,11 +1454,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1594,11 +1478,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "hornbeam",
-        "core": "dragon heartstring",
-        "length": 12.75
-      },
+      "wand_wood": "hornbeam",
+      "wand_core": "dragon heartstring",
+      "wand_length": 12.75,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1620,11 +1502,9 @@
       "gender": "female",
       "species": "owl",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1654,11 +1534,9 @@
       "gender": "male",
       "species": "toad",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1680,11 +1558,9 @@
       "gender": "male",
       "species": "owl",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1706,11 +1582,9 @@
       "gender": "male",
       "species": "owl",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1735,11 +1609,9 @@
       "gender": "male",
       "species": "owl",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1764,11 +1636,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1794,11 +1664,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -1820,11 +1688,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -1846,11 +1712,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -1872,11 +1736,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -1900,11 +1762,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1930,11 +1790,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1956,11 +1814,9 @@
       "gender": "male",
       "species": "ghost",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -1982,11 +1838,9 @@
       "gender": "male",
       "species": "poltergeist",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -2008,11 +1862,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2036,11 +1888,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2064,11 +1914,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2090,11 +1938,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2116,11 +1962,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2145,11 +1989,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2171,11 +2013,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2200,11 +2040,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2226,11 +2064,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -2252,11 +2088,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -2278,11 +2112,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2304,11 +2136,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2330,11 +2160,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2356,11 +2184,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2382,11 +2208,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2411,11 +2235,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2439,11 +2261,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2467,11 +2287,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2493,11 +2311,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2519,11 +2335,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2549,11 +2363,9 @@
       "gender": "male",
       "species": "ghost",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -2575,11 +2387,9 @@
       "gender": "male",
       "species": "ghost",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -2601,11 +2411,9 @@
       "gender": "female",
       "species": "ghost",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -2627,11 +2435,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -2657,11 +2463,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -2685,11 +2489,9 @@
       "gender": "male",
       "species": "ghost",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -2711,11 +2513,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -2737,11 +2537,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -2765,11 +2563,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -2793,11 +2589,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -2819,11 +2613,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2845,11 +2637,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -2871,11 +2661,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -2897,11 +2685,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2925,11 +2711,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2951,11 +2735,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -2979,11 +2761,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -3007,11 +2787,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -3033,11 +2811,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -3061,11 +2837,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -3087,11 +2861,9 @@
       "gender": "male",
       "species": "dog",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3120,11 +2892,9 @@
       "gender": "male",
       "species": "three-headed dog",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3146,11 +2916,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3172,11 +2940,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3204,11 +2970,9 @@
       "gender": "female",
       "species": "dragon",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3230,11 +2994,9 @@
       "gender": "male",
       "species": "centaur",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3256,11 +3018,9 @@
       "gender": "male",
       "species": "centaur",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3286,11 +3046,9 @@
       "gender": "male",
       "species": "centaur",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -3312,11 +3070,9 @@
       "gender": "",
       "species": "cephalopod",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3340,11 +3096,9 @@
       "gender": "female",
       "species": "selkie",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3366,11 +3120,9 @@
       "gender": "male",
       "species": "goblin",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3392,11 +3144,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3418,11 +3168,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3444,11 +3192,9 @@
       "gender": "male",
       "species": "house-elf",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3470,11 +3216,9 @@
       "gender": "male",
       "species": "house-elf",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3498,11 +3242,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3524,11 +3266,9 @@
       "gender": "female",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3550,11 +3290,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3576,11 +3314,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "larch",
-        "core": "phoenix feather",
-        "length": 10.5
-      },
+      "wand_wood": "larch",
+      "wand_core": "phoenix feather",
+      "wand_length": 10.5,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3604,11 +3340,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "cherry",
-        "core": "dragon heartstring",
-        "length": 9.0
-      },
+      "wand_wood": "cherry",
+      "wand_core": "dragon heartstring",
+      "wand_length": 9.0,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -3630,11 +3364,9 @@
       "gender": "",
       "species": "serpent",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3658,11 +3390,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3684,11 +3414,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3712,11 +3440,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3742,11 +3468,9 @@
       "gender": "female",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3770,11 +3494,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3796,11 +3518,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -3822,11 +3542,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3848,11 +3566,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3876,11 +3592,9 @@
       "gender": "male",
       "species": "ghost",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3902,11 +3616,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3930,11 +3642,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3956,11 +3666,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -3984,11 +3692,9 @@
       "gender": "female",
       "species": "ghost",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4010,11 +3716,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4036,11 +3740,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4062,11 +3764,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4088,11 +3788,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4116,11 +3814,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -4142,11 +3838,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -4170,11 +3864,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "boar",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -4198,11 +3890,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4226,11 +3916,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -4254,11 +3942,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4282,11 +3968,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4308,11 +3992,9 @@
       "gender": "male",
       "species": "acromantula",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4334,11 +4016,9 @@
       "gender": "female",
       "species": "acromantula",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4362,11 +4042,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4390,11 +4068,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4416,11 +4092,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4442,11 +4116,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4468,11 +4140,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4497,11 +4167,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "hazel",
-        "core": "unicorn hair",
-        "length": 9.5
-      },
+      "wand_wood": "hazel",
+      "wand_core": "unicorn hair",
+      "wand_length": 9.5,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -4526,11 +4194,9 @@
       "gender": "male",
       "species": "hippogriff",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4556,11 +4222,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "chestnut",
-        "core": "dragon heartstring",
-        "length": 9.25
-      },
+      "wand_wood": "chestnut",
+      "wand_core": "dragon heartstring",
+      "wand_length": 9.25,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4584,11 +4248,9 @@
       "gender": "male",
       "species": "cat",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4613,11 +4275,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4641,11 +4301,9 @@
       "gender": "",
       "species": "hat",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4667,11 +4325,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4693,11 +4349,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -4721,11 +4375,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -4747,11 +4399,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -4773,11 +4423,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -4799,11 +4447,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -4825,11 +4471,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -4851,11 +4495,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4877,11 +4519,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4903,11 +4543,9 @@
       "gender": "female",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4929,11 +4567,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4957,11 +4593,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -4985,11 +4619,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5011,11 +4643,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5039,11 +4669,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5065,11 +4693,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5091,11 +4717,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5117,11 +4741,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5143,11 +4765,9 @@
       "gender": "female",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5169,11 +4789,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5195,11 +4813,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5221,11 +4837,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5247,11 +4861,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5273,11 +4885,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5299,11 +4909,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5325,11 +4933,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5351,11 +4957,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5377,11 +4981,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5403,11 +5005,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5429,11 +5029,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "hornbeam",
-        "core": "dragon heartstring",
-        "length": 10.25
-      },
+      "wand_wood": "hornbeam",
+      "wand_core": "dragon heartstring",
+      "wand_length": 10.25,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5455,11 +5053,9 @@
       "gender": "female",
       "species": "house-elf",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5483,11 +5079,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5509,11 +5103,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5535,11 +5127,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5561,11 +5151,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5587,11 +5175,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5613,11 +5199,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5639,11 +5223,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5665,11 +5247,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5691,11 +5271,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5717,11 +5295,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5743,11 +5319,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5769,11 +5343,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5795,11 +5367,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5821,11 +5391,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5847,11 +5415,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -5873,11 +5439,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -5901,11 +5465,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -5927,11 +5489,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -5953,11 +5513,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -5979,11 +5537,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -6005,11 +5561,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -6031,11 +5585,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -6057,11 +5609,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -6083,11 +5633,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -6109,11 +5657,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -6135,11 +5681,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -6161,11 +5705,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -6187,11 +5729,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -6216,11 +5756,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -6244,11 +5782,9 @@
       "gender": "female",
       "species": "half-giant",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6272,11 +5808,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6298,11 +5832,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6324,11 +5856,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -6350,11 +5880,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -6376,11 +5904,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6404,11 +5930,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6430,11 +5954,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6456,11 +5978,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -6484,11 +6004,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -6510,11 +6028,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6538,11 +6054,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6564,11 +6078,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6590,11 +6102,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6616,11 +6126,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6642,11 +6150,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6668,11 +6174,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6694,11 +6198,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6720,11 +6222,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6746,11 +6246,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6772,11 +6270,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6798,11 +6294,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6824,11 +6318,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6850,11 +6342,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6876,11 +6366,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6902,11 +6390,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6931,11 +6417,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6957,11 +6441,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -6983,11 +6465,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7009,11 +6489,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7035,11 +6513,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7061,11 +6537,9 @@
       "gender": "male",
       "species": "goblin",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7087,11 +6561,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7115,11 +6587,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7143,11 +6613,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7169,11 +6637,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7195,11 +6661,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7223,11 +6687,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7249,11 +6711,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7277,11 +6737,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7303,11 +6761,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7329,11 +6785,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7357,11 +6811,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7383,11 +6835,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7409,11 +6859,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7435,11 +6883,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7461,11 +6907,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7487,11 +6931,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7513,11 +6955,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7539,11 +6979,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7565,11 +7003,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "goat",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7593,11 +7029,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7619,11 +7053,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7645,11 +7077,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -7671,11 +7101,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7697,11 +7125,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -7723,11 +7149,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -7749,11 +7173,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -7775,11 +7197,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -7801,11 +7221,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -7827,11 +7245,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -7853,11 +7269,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7879,11 +7293,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -7905,11 +7317,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -7931,11 +7341,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -7957,11 +7365,9 @@
       "gender": "male",
       "species": "giant",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -7983,11 +7389,9 @@
       "gender": "male",
       "species": "giant",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8009,11 +7413,9 @@
       "gender": "female",
       "species": "giant",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8035,11 +7437,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -8061,11 +7461,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -8089,11 +7487,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8117,11 +7513,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8143,11 +7537,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8169,11 +7561,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8195,11 +7585,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8221,11 +7609,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8247,11 +7633,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8273,11 +7657,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8299,11 +7681,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8325,11 +7705,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -8351,11 +7729,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -8377,11 +7753,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8403,11 +7777,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8429,11 +7801,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8455,11 +7825,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -8481,11 +7849,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -8507,11 +7873,9 @@
       "gender": "male",
       "species": "giant",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8537,11 +7901,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8563,11 +7925,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -8589,11 +7949,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -8617,11 +7975,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8643,11 +7999,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8669,11 +8023,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8697,11 +8049,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8723,11 +8073,9 @@
       "gender": "male",
       "species": "centaur",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8749,11 +8097,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8775,11 +8121,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8801,11 +8145,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8827,11 +8169,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8853,11 +8193,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8879,11 +8217,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8905,11 +8241,9 @@
       "gender": "male",
       "species": "werewolf",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8931,11 +8265,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8957,11 +8289,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -8983,11 +8313,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9009,11 +8337,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9035,11 +8361,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9061,11 +8385,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9087,11 +8409,9 @@
       "gender": "male",
       "species": "pygmy puff",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9113,11 +8433,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -9139,11 +8457,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -9165,11 +8481,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -9191,11 +8505,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9217,11 +8529,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -9243,11 +8553,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9269,11 +8577,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9295,11 +8601,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9321,11 +8625,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9347,11 +8649,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9373,11 +8673,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9399,11 +8697,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9427,11 +8723,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9453,11 +8747,9 @@
       "gender": "female",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9481,11 +8773,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9507,11 +8797,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -9533,11 +8821,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -9559,11 +8845,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -9585,11 +8869,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -9611,11 +8893,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -9637,11 +8917,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9663,11 +8941,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9689,11 +8965,9 @@
       "gender": "female",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9715,11 +8989,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9741,11 +9013,9 @@
       "gender": "female",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9767,11 +9037,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9793,11 +9061,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -9819,11 +9085,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -9845,11 +9109,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -9871,11 +9133,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9897,11 +9157,9 @@
       "gender": "male",
       "species": "vampire",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9923,11 +9181,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9949,11 +9205,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -9975,11 +9229,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10001,11 +9253,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -10027,11 +9277,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -10053,11 +9301,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10079,11 +9325,9 @@
       "gender": "female",
       "species": "house-elf",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10105,11 +9349,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10131,11 +9373,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10157,11 +9397,9 @@
       "gender": "female",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10183,11 +9421,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10209,11 +9445,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10235,11 +9469,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10261,11 +9493,9 @@
       "gender": "male",
       "species": "human",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10287,11 +9517,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10313,11 +9541,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10339,11 +9565,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": true,
@@ -10365,11 +9589,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10391,11 +9613,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10417,11 +9637,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10443,11 +9661,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10469,11 +9685,9 @@
       "gender": "female",
       "species": "half-human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10495,11 +9709,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10521,11 +9733,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10547,11 +9757,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10573,11 +9781,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10599,11 +9805,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10628,11 +9832,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10656,11 +9858,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10682,11 +9882,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10710,11 +9908,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10736,11 +9932,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10762,11 +9956,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10790,11 +9982,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "cherry",
-        "core": "unicorn hair",
-        "length": 8.75
-      },
+      "wand_wood": "cherry",
+      "wand_core": "unicorn hair",
+      "wand_length": 8.75,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10816,11 +10006,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10842,11 +10030,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10868,11 +10054,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10894,11 +10078,9 @@
       "gender": "male",
       "species": "goblin",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10920,11 +10102,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10946,11 +10126,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10972,11 +10150,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -10998,11 +10174,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11024,11 +10198,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11050,11 +10222,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11076,11 +10246,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11102,11 +10270,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11128,11 +10294,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11154,11 +10318,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11182,11 +10344,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11210,11 +10370,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11238,11 +10396,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11264,11 +10420,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11290,11 +10444,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11318,11 +10470,9 @@
       "gender": "male",
       "species": "goblin",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11346,11 +10496,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11372,11 +10520,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11398,11 +10544,9 @@
       "gender": "male",
       "species": "goblin",
       "wizard": false,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11426,11 +10570,9 @@
       "gender": "female",
       "species": "ghost",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11456,11 +10598,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11484,11 +10624,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": false,
       "hogwarts_staff": false,
@@ -11512,11 +10650,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -11540,11 +10676,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -11566,11 +10700,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -11592,11 +10724,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -11620,11 +10750,9 @@
       "gender": "male",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,
@@ -11646,11 +10774,9 @@
       "gender": "female",
       "species": "human",
       "wizard": true,
-      "wand": {
-        "wood": "",
-        "core": "",
-        "length": null
-      },
+      "wand_wood": "",
+      "wand_core": "",
+      "wand_length": null,
       "patronus": "",
       "hogwarts_student": true,
       "hogwarts_staff": false,

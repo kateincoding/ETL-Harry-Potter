@@ -7,6 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY 2.transform/ .
 
-WORKDIR /app
-
 CMD ["python", "run_transform.py"]
