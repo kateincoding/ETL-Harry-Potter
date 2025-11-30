@@ -1,0 +1,14 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY 3.load .
+
+COPY requirements.txt requirements-global.txt
+
+# Aqui instalamos los requirements globales y luego propios 
+RUN pip install --no-cache-dir -r requirements-global.txt && \
+    pip install --no-cache-dir -r requirements.txt
+
+
+CMD ["python", "run_load.py"]
