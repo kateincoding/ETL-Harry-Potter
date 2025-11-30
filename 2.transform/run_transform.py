@@ -9,6 +9,7 @@ from transform import HPTransformer, DescriptiveAnalysis
 
 if __name__ == "__main__":
     # inicializamos el transform una vez el extract haya generado el archivo
+    print("iniciando transform...")
     print("Trigger del raw_data file: Esperando a que extract genere el archivo...")
     path = "/app/data/1.raw_data.json"
     while not os.path.exists(path):
