@@ -6,7 +6,8 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copiar carpeta extract y archivos necesarios
-COPY 1.extract/ ./1.extract/
-COPY transform.py mongo_setup.py run_transform.py .
+COPY 2.transform/ .
+
+WORKDIR /app
 
 CMD ["python", "run_transform.py"]
