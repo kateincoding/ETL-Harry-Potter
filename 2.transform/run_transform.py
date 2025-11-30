@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Script para ejecutar solo la fase de Transform
-# Transform es independiente: Lee 1.raw_data.json y genera transformed_data.json
+# Transform es independiente: Lee 1.raw_data.json y genera 2.transformed_data.json
 
 import json
 import os
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     transformed_data = transformer.transform_all(raw_data)
     
     # Guardar datos transformados
-    output_file = os.path.join(data_dir, 'transformed_data.json')
+    output_file = os.path.join(data_dir, '2.transformed_data.json')
     with open(output_file, 'w') as f:
         json.dump(transformed_data, f, indent=2)
     

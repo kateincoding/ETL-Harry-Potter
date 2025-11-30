@@ -13,6 +13,7 @@ if __name__ == "__main__":
     output_dir = os.getenv('OUTPUT_DIR', '/app/data')
     os.makedirs(output_dir, exist_ok=True)
     
+    # Aqui guardamos nuestro return de 1.raw_data.json
     output_file = os.path.join(output_dir, '1.raw_data.json')
     with open(output_file, 'w') as f:
         json.dump(data, f, indent=2)

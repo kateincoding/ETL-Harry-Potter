@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 class HPTransformer:
     def __init__(self):
-        """Inicializa el transformador. Transform es independiente de MongoDB."""
+        """Inicializa el transformador."""
         pass
     
     def _parse_numeric(self, value) -> Optional[float]:
@@ -50,13 +50,11 @@ class HPTransformer:
                     'gender': character.get('gender'),  # male/female
                     'species': character.get('species'),
                     'wizard': character.get('wizard'),
-                    # Información de la varita
                     'wand': {
                         'wood': wand.get('wood'),  # material de la madera de la varita
                         'core': wand.get('core'),  # núcleo de la varita
                         'length': self._parse_numeric(wand.get('length')) 
                     },
-                    # Información adicional del personaje
                     'patronus': character.get('patronus'),
                     'hogwarts_student': character.get('hogwartsStudent'),
                     'hogwarts_staff': character.get('hogwartsStaff'),
