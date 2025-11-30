@@ -9,7 +9,7 @@ from load import LoadHpToMongo
 if __name__ == "__main__":
     # Leer datos transformados
     data_dir = os.getenv('DATA_DIR', '/app/data')
-    input_file = os.path.join(data_dir, 'transformed_data.json')
+    input_file = os.path.join(data_dir, '2.transformed_data.json')
     
     if not os.path.exists(input_file):
         print(f"Error: No se encontró {input_file}")

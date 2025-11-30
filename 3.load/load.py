@@ -62,7 +62,7 @@ class LoadHpToMongo:
         Obtiene una colección de MongoDB
         Return: Objeto Collection o None si no hay conexión
         """
-        if not self.db:
+        if self.db is None: 
             logger.error("No hay conexión a la base de datos")
             return None
         return self.db[collection_name]
@@ -73,7 +73,7 @@ class LoadHpToMongo:
         Retorna n de documentos insertados/actualizados
         """
         collection = self._get_collection('characters')
-        if not collection:
+        if collection is None: #por el tema de los booleanos Collection objects do not implement truth value testing or bool()
             return 0
         
         try:
@@ -129,7 +129,7 @@ if __name__ == "__main__":
     import json
     import os
     data_dir = os.getenv('DATA_DIR', './data')
-    input_file = os.path.join(data_dir, 'transformed_data.json')
+    input_file = os.path.join(data_dir, '2.transformed_data.json')
     
     if os.path.exists(input_file):
         with open(input_file, 'r') as f:
@@ -138,6 +138,7 @@ if __name__ == "__main__":
         # Cargar en MongoDB
         loader = LoadHpToMongo()
         results = loader.load_all(transformed_data)
+        loader.close()
         
         print(f"\nResumen de carga en MongoDB:")
         print(f"  - Characters: {results['characters']} documentos")
